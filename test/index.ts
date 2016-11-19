@@ -1,5 +1,5 @@
 import * as test from 'tape';
-import html from '../src/index';
+import {html} from '../src/index';
 
 const markup = require(`snabbdom-to-html`);
 

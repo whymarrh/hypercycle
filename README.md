@@ -11,10 +11,8 @@ API
 This module exports but a single function:
 
 ```js
-import html from 'hypercycle';
-const vdom = html`
-<div>This is some HTML</div>
-`;
+const {html} = require(`hypercycle`);
+const vdom = html`<div>This is some HTML showing that 3 + 4 is ${3 + 4}</div>`;
 ```
 
 See [hyperx](https://github.com/substack/hyperx)'s documentation for more examples.

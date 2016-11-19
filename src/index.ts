@@ -23,4 +23,4 @@ const html: (s: TemplateStringsArray, ...vals: any[]) => VNode = hyperx((tag: st
     return h(tag, attributes);
 });
 
-export default html;
+export { html };
