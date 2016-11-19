@@ -9,6 +9,12 @@ test(`html does generate simple div`, (t) => {
     t.equal(markup(vdom), `<div></div>`);
 });
 
+test(`html does generate simple div with variable`, (t) => {
+    t.plan(1);
+    const vdom = html`<div>This is some HTML showing that 3 + 4 is ${3 + 4}.</div>`;
+    t.equal(markup(vdom), `<div>This is some HTML showing that 3 + 4 is 7.</div>`);
+});
+
 test(`html does generate div with class name`, (t) => {
     t.plan(1);
     const vdom = html`<div class="foo"></div>`;
