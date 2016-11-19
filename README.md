@@ -16,3 +16,5 @@ const vdom = html`
 <div>This is some HTML</div>
 `;
 ```
+
+See [hyperx](https://github.com/substack/hyperx)'s documentation for more examples.
