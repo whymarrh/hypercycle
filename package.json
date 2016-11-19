@@ -3,6 +3,7 @@
   "version": "1.0.0-2",
   "description": "A Cycle.js DOM shim for hyperx",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc --project .",
     "test": "npm run build && tape test/**/*.js | tap-dot"
