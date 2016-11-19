@@ -1,3 +1,11 @@
 *.ts
 !*.d.ts
+.editorconfig
+.gitignore
+.idea/
+.npmrc
+.travis.yml
+.vscode/
 node_modules/
+test
+tsconfig.json
