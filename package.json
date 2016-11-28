@@ -14,7 +14,7 @@
     "@cycle/base": "4.1.1",
     "@cycle/dom": "14.1.0",
     "hyperx": "2.0.5",
-    "xstream": "8.0.0"
+    "xstream": "9.0.0"
   },
   "devDependencies": {
     "@types/node": "6.0.51",
