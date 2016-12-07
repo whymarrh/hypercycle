@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@cycle/base": "4.2.0",
-    "@cycle/dom": "14.1.0",
+    "@cycle/dom": "14.2.0",
     "hyperx": "2.0.5",
     "xstream": "9.0.0"
   },
