@@ -17,7 +17,7 @@
     "xstream": "9.0.0"
   },
   "devDependencies": {
-    "@types/node": "6.0.51",
+    "@types/node": "6.0.52",
     "@types/tape": "4.2.28",
     "snabbdom": "0.5.4",
     "snabbdom-to-html": "3.0.1",
