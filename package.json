@@ -23,7 +23,7 @@
     "snabbdom-to-html": "3.0.1",
     "tap-dot": "1.0.5",
     "tape": "4.6.3",
-    "typescript": "2.1.4"
+    "typescript": "2.1.5"
   },
   "repository": {
     "type": "git",
