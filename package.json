@@ -6,7 +6,7 @@
   "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc --project .",
-    "test": "npm run build && tape test/**/*.js | tap-dot"
+    "test": "npm run build && tape test/**/*.js | tap-spec"
   },
   "author": "Whymarrh Whitby",
   "license": "ISC",
@@ -22,6 +22,7 @@
     "snabbdom": "0.5.4",
     "snabbdom-to-html": "3.0.1",
     "tap-dot": "1.0.5",
+    "tap-spec": "4.1.1",
     "tape": "4.6.3",
     "typescript": "2.1.5"
   },
