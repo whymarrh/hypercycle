@@ -7,6 +7,8 @@ matrix:
         - node_js: "4"
         - node_js: "6"
         - node_js: "7"
+    allow_failures:
+        - node_js: "4"
 
 notifications:
     email: false
