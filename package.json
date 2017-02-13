@@ -17,13 +17,13 @@
     "xstream": "^10.0.0"
   },
   "devDependencies": {
-    "@types/node": "6.0.59",
-    "@types/tape": "4.2.28",
-    "snabbdom": "0.5.4",
-    "snabbdom-to-html": "3.0.1",
-    "tap-list": "1.0.1",
-    "tape": "4.6.3",
-    "typescript": "2.1.5"
+    "@types/node": "^7.0.5",
+    "@types/tape": "^4.2.29",
+    "snabbdom": "^0.6.4",
+    "snabbdom-to-html": "^3.0.1",
+    "tap-list": "^1.0.1",
+    "tape": "^4.6.3",
+    "typescript": "^2.1.6"
   },
   "repository": {
     "type": "git",
