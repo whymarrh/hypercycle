@@ -1,7 +1,5 @@
-Copyright (c) 2013 Whymarrh Whitby and all contributors
+Copyright (c) 2016 Whymarrh Whitby
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files ("the software"), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions:
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the software.
-
-The software is provided "as is", without warranty of any kind, expressed or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, dmages or other liability, wheter in an action of contract, tort or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+The software is provided "as is" and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
