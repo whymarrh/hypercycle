@@ -11,8 +11,8 @@
   "author": "Whymarrh Whitby",
   "license": "ISC",
   "dependencies": {
-    "@cycle/dom": "^16.0.0",
-    "hyperx": "^2.0.5"
+    "@cycle/dom": "^17.1.0",
+    "hyperx": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "^7.0.5",
