@@ -43,7 +43,6 @@
         "no-parameter-properties": false,
         "no-reference": true,
         "no-shadowed-variable": true,
-        "no-string-literal": true,
         "no-switch-case-fall-through": false,
         "no-trailing-whitespace": true,
         "no-unsafe-finally": true,
