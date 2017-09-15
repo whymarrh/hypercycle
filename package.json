@@ -21,6 +21,7 @@
     "snabbdom-to-html": "^3.0.1",
     "tap-list": "^1.0.1",
     "tape": "^4.6.3",
+    "tslint": "^5.7.0",
     "typescript": "^2.5.2"
   },
   "peerDependencies": {
