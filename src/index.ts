@@ -10,11 +10,11 @@ const hyperx = require(`hyperx`);
  */
 const html: (s: TemplateStringsArray, ...vals: any[]) => VNode = hyperx((tag: string, attrs: any, children: any[]) => {
     const attributes: {[k: string]: {}} = Object.assign({}, { attrs });
-    if (attrs.className && typeof attrs.className == `string`) {
+    if (attrs.className && typeof attrs.className === `string`) {
         const klass: { [k: string]: boolean } = {};
         attrs.className.split(' ').map((className: string) => klass[className] = true);
         attributes['class'] = klass;
-        delete (<{[k: string]: {}}>attributes['attrs'])['className'];
+        delete (<{[k: string]: {}}> attributes['attrs'])['className'];
     }
 
     if (children) {
