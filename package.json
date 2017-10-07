@@ -1,6 +1,6 @@
 {
   "name": "hypercycle",
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "A Cycle.js DOM shim for hyperx",
   "main": "src/index.js",
   "types": "src/index.d.ts",
