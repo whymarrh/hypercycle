@@ -20,7 +20,7 @@
     "snabbdom": "^0.7.0",
     "snabbdom-to-html": "^3.3.0",
     "tap-list": "^1.0.1",
-    "tape": "^4.8.0",
+    "tape": "^4.13.2",
     "typescript": "^2.7.1"
   },
   "peerDependencies": {
