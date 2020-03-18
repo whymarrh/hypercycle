@@ -12,13 +12,3 @@ notifications:
 
 before_deploy:
     - yarn run build
-deploy:
-    skip_cleanup: true
-    provider: npm
-    email:
-        secure: Ngq3Ytdap8uRT+bDzCDzKuEErQet+6x3yYQKBSzaRU1tnmaZcDcQbw/XM2dUvAiBS/VjNrCdaOwT8MfAududpd1R/CksOHFZdP5Pa6n3X4KQe3aDzBQwC3wHakSyikzIAQWsrOoYwBNbFCtBl8NcpzbaIBQhq70MChBEJHdTUPJrLQA0Ge7yXK8+hAiHC6hdcRbVk0F7Hn18tXf3rMDMGRUWiEQrDk4r4xKktwfvfwo4lcwqv23bceUPQspB4plSyRmB+YTAHPZngzSqH4IrPG+YiUyP1lgukH+5UfQxHjbzb1Ya++q2ctoYRop9MKqYcriFhdiWp3Z5pwn2o6LoPX6upxFdoW1j+G1Ahj/hN65pibWtIBNYmqSz2JD2SZ3U6cRN3vEn3v2Pkq8zFj4s3OLzEDAMFo36d7o69Nfv1R7Csx2cW6cYbDBOApp5FsoahhwqE5jN+POgFFstvt6cHZ7NnN+ully9z/k+u13QNYbyCg0EFsgDaJNi0xYYPma8YAFasrff68URYqNRO75pVJww31oZvXd5XRpk0GT66zsZCWZoGMaPfMrxf3yeEkAcePLQEuRIlFoJS0UxvDkYXj5/BT5IQpzCVwZNiGc6tJKiGveIRBWAV563pQoKN5f0HyzP76Z0Jc4BMrHAMInPRye+Keq/Ravk3bcYIikIs58=
-    api_key:
-        secure: tY0K/jNRGQisdKsqIj7EVVbw97h24AOzU1DU95FrzsW/U72AYxPpHi4CiZCtshnDKJXh53z0exIGlAozTUW7BUrvhRw+J7qQ1nOhsHIEqyZd/gjwmY7BgMXOJbsATHbaSDVmHfF1nUnd4cD5a8noybQKCJXDbEdDBssrCUCCCi5RMULYKZVcYCdwCeODt7MqC6S3+8iC4sObY62wb2KCKA9tfIslgeXA20w66TuTrJxQRllp+CPYa2RP/gPa8tpdQ9+KjLzGPNydSCgz/AtOkldPSYIZdDc2glhJxcyWJ0qdUyY8gJ7CTHqwE85QTadMHGeNoFhBRclM/w4H0C/zAYlW4f1Ic8LluwM99EBi6y/rojhsm+tYSj/hcuPp8ztPReh9jQa1xO6w0WxK/+ks57Z8Lzx4HjHr4eokVGDnnnYyRALzN3VP0ez2xcUqHUPBtp5IV0phYuUwapHoExp4HzKIeO1mplpUT49GnBNPaGu6czuyXtFC+5nOyCJZjTHFpMoAVA/dCn8vRgxZvmOfD4TyjN8VIikHKcemHg/x1mDo0Es8Kse6aC52zB1MPH6OkiL7hgMD17zDybQnS9sMAw1aXsVYT2kEa3RB+cqnR7B5tVIyZWX1z10Qn7lzwGQtxsvx7HWdnB6cmjX0G+Lpju4s55DdZc17sxGgVzPYrCE=
-    on:
-        tags: true
-        node_js: "8"
