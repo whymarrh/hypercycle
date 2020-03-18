@@ -6,7 +6,7 @@
   "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc --project .",
-    "test": "tslint --project . && yarn run build && tape test/**/*.js | tap-list"
+    "test": "yarn run build && tape test/**/*.js | tap-list"
   },
   "author": "Whymarrh Whitby",
   "license": "ISC",
@@ -21,7 +21,6 @@
     "snabbdom-to-html": "^3.3.0",
     "tap-list": "^1.0.1",
     "tape": "^4.8.0",
-    "tslint": "^5.8.0",
     "typescript": "^2.7.1"
   },
   "peerDependencies": {
