@@ -11,7 +11,7 @@ notifications:
     email: false
 
 before_deploy:
-    - npm run build
+    - yarn run build
 deploy:
     skip_cleanup: true
     provider: npm
